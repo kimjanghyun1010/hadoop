@@ -4,7 +4,6 @@
 .DS_Store
 # Common VCS dirs
 .git/
-.gitignore
 .bzr/
 .bzrignore
 .hg/
@@ -15,7 +14,6 @@
 *.bak
 *.tmp
 *~
-# Various IDEs
 .project
 .idea/
 *.tmproj
