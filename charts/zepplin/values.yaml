@@ -2,8 +2,8 @@ zeppelin:
   image: dylanmei/zeppelin:0.7.2
   resources:
     limits:
-      memory: "4096Mi"
-      cpu: "2000m"
+      memory: "2048Mi"
+      cpu: "1000m"
 
 hadoop:
   useConfigMap: false
