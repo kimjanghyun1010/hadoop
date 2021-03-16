@@ -3,7 +3,6 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: {{ include "hadoop.fullname" . }}-hdfs-nn
-  namespace: hadoop
   labels:
     app: {{ include "hadoop.name" . }}
     chart: {{ include "hadoop.chart" . }}
