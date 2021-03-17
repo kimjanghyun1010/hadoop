@@ -10,6 +10,6 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: hadoop-hadoop-hdfs-nn
+          serviceName: hadoop-hadoop-yarn-rm
           servicePort: 8088
         path: /
