@@ -35,7 +35,7 @@ questions:
   default: 0
   description: "The number of YARN NodeManager instances"
   type: int
-  min: 0
+  min: 2
   max: 100
   group: "YARN Node Manager"
 - variable: yarn.nodeManager.resources.requests.cpu
