@@ -130,7 +130,7 @@ questions:
     label: YARN UI NodePort Number
 # zeppelin configurations
 - variable: zeppelin.enabled
-  default: true
+  default: false
   description: "Enabled zeppelin chart"
   type: boolean
   label: Enabled Zeppelin Chart
