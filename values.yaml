@@ -24,7 +24,7 @@ hdfs:
         cpu: "1000m"
 
   dataNode:
-    replicas: 1
+    replicas: 2
 
     pdbMinAvailable: 1
 
@@ -55,7 +55,7 @@ yarn:
     pdbMinAvailable: 1
 
     # The number of YARN NodeManager instances.
-    replicas: 1
+    replicas: 2
 
     # Create statefulsets in parallel (K8S 1.7+)
     parallelCreate: false
